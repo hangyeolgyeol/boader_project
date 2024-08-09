@@ -43,7 +43,7 @@
     <main class="main">
       <div class="contents_area">
         <!-- 회원가입 박스 -->
-        <form action="#" method="post" class="register_area" autocomplete="off">
+        <form action="<c:url value="/register"/>" method="post" class="register_area" autocomplete="off">
           <h1 class="register_title">회원가입</h1>
           <p class="register_title2">회원이 되어 다양한 혜택을 경험해 보세요!</p>
 
