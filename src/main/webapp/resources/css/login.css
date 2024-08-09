@@ -1,0 +1,83 @@
+/* 로그인 페이지의 css이다 */
+
+.background {
+  background: linear-gradient(to top, #141414 1%, rgba(0, 0, 0, 0.3) 15%), url(../img/image.png) no-repeat center / cover;
+  
+}
+
+/* 타이틀에 사용된 태그들의 margin 없애기 */
+h1, p { margin: 0; }
+
+/* .main {
+  width: 100%;
+  padding-top: 220px;
+  margin-bottom: 180px;
+} */
+
+.login_area {
+  width: 500px;  height: 600px;
+  background: rgba(0, 0, 0, 0.3);  margin: 0 auto;
+  transform: translateY(200px);  text-align: center;
+}
+.login_title { color: #fff; }
+.main_title { 
+  margin-bottom: 50px; font-size: 40px;
+  padding-top: 20px;
+}
+.second_title {
+  margin-bottom: 50px; font-size: 28px;
+}
+
+.login_info {}
+form.login_form {
+  display: flex;  flex-direction: column;
+  align-items: center;  justify-content: center;
+  row-gap: 35px;
+}
+
+.id_area, .pw_area { 
+  display: flex; justify-content: space-between;
+  width: 70%;  height: 40px; 
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+.id_area > input, .pw_area > input {
+  width: 90%;  height: 100%;
+  padding: 0 20px 0 10px;  box-sizing: border-box;
+  font-size: 15px;  outline: none;
+  background-color: transparent;  border: none;
+  color: #fff;
+}
+.login_icon { width: 10%; cursor: pointer; } 
+.login_icon > img {
+  filter: invert();  width: 20px;
+  transform: translateY(12px); 
+}
+
+.login_btn {
+  width: 70%;  height: 70px;
+  font-size: 18px;  color: #fff;
+  background: #ff005c;  margin: 30px 0 10px 0;;
+  border: none;  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.info_find, .register_link { color: rgba(255, 255, 255, 0.5); }
+
+.info_find {}
+.info_find > a {}
+.register_link { margin-top: 55px;}
+.register_link > a {}
+
+
+
+
+
+
+
+
+
+
+
+
+

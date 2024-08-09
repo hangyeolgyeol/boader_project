@@ -1,0 +1,120 @@
+/* board의 main css를 포함 */
+.main {
+  width: 100%;
+  padding-top: 220px;
+  margin-bottom: 180px;
+}
+
+
+/* board의 검색바 */
+.search_area {
+  background: #ddd;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+  height: 140px;
+  margin-bottom: 10px;
+}
+select#keyword { 
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+}
+select#keyword > option {
+
+}
+.search_box {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+#search {
+  height: 40px;
+  border: none;
+  padding: 0 20px 0 10px;
+  box-sizing: border-box;
+  outline: none;
+
+  font-size: 15px;
+}
+.btn_search {
+  height: 40px;
+  box-sizing: border-box;
+  background: #000;
+  color: #fff;
+  width: 60px;
+  cursor: pointer;
+
+  border: none;
+  border-radius: 4px;
+}
+.create_writer {
+  height: 40px;
+  box-sizing: border-box;
+  background: #111;
+  color: #fff;
+
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* board의 테이블 */
+table {
+  width: 100%;
+  border-top: 2px solid #d1cd9e;
+  border-bottom: 2px solid #d1cd9e;
+}
+table thead,
+table tbody,
+table th,
+table td {
+  display: block;
+}
+
+table thead { border-bottom: 2px solid #d1cd9e;}
+
+table tr { display: flex; align-items: center;height: 50px; }
+table th, table td { text-align: center; padding: 0 10px; font-size: 15px; }
+/* table head */
+
+table .no { width: 100px; }
+table .title { width: calc(100% - 350px);}
+table .writer { width: 100px;}
+table .regdate { width: 100px;}
+table .view_count { width: 100px;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
